@@ -1,0 +1,45 @@
+<?php
+
+function custom_form_alter(&$form, &$form_state, $form_id){
+	// dsm($form_id);
+	if ($form_id == 'views_exposed_form') {
+		// dsm($form);
+		$form['submit']['#attributes']['name'] = 'submit';
+	}
+}
+
+
+function custom_block_info() {
+
+	$blocks['my_block'] = array(
+    	'info' => t('Last update block'),
+    	'cache' => DRUPAL_NO_CACHE,
+  	);
+  	return $blocks;
+}
+
+
+function custom_block_view($delta='') {
+	$block = array();
+  
+	switch($delta) {
+	case 'my_block' :
+    	$block['content'] = my_block_view();
+    	break;
+	}
+  
+  return $block;
+}
+
+function my_block_view() {
+
+	$block = array();
+        $query = db_select('node', 'n');  
+  	$query->condition('status', 1);
+  	$query->addExpression("MAX(n.changed)");
+  	$max= $query->execute()->fetchField();
+   	$block = '<span class="views-label views-label-changed">Updated On: </span>'.date('m /d /Y - h:i',$max);
+  	
+  	return $block;
+
+}

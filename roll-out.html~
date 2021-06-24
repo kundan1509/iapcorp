@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<title>IAP Corp - Rollout Services</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/ionicons.min.css" />
+<link rel="stylesheet" href="css/owl.carousel.css" />
+<link rel="stylesheet" href="css/magnific-popup.css" />
+<link rel="stylesheet" href="css/font-awesome.min.css" />
+<link rel="stylesheet" href="style.css" />
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Fjalla+One:400" />
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Cantarell:400" />
+<!--<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700" rel="stylesheet">
+--><!--     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'> -->
+</head>
+<body>
+<header>
+  <div id="feedback_btn" class="modal fade team_details" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4 class="modal-title">Send us a message</h4>
+        </div>
+        <div class="modal-body">
+          <form class="wpcf7" >
+            <fieldset>
+              <label><span class="text-color">*</span> Name:</label>
+              <input type="text" required class="wpcf7-text" id="contact-name">
+            </fieldset>
+            <fieldset>
+              <label><span class="text-color">*</span> Email:</label>
+              <input type="email" required name="email" id="contact-email" class="wpcf7-text">
+            </fieldset>
+            <fieldset>
+              <label><span class="text-color">*</span> Message:</label>
+              <textarea rows="5"  required class="wpcf7-textarea" id="contact-message"></textarea>
+            </fieldset>
+            <input type="submit" class="btn btn-danger" value="Submit">
+          </form>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="row pos-rel">
+        <div class="search-form-wrap"> <a class="search-close ion-android-close"></a>
+          <form>
+            <input type="text" placeholder="Search...">
+          </form>
+        </div>
+      </div>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""></a> </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown"> <a href="about-us.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About <i class="caret"></i></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="about.html">Introduction</a></li>
+              <li><a href="iap-team.html">Team</a></li>
+              <li><a href="locations.html">Reach</a></li>
+            </ul>
+          </li>
+          <li class="active dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Business <i class="caret"></i></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="Infotech.html">Infotech</a></li>
+              <li><a href="roll-out.html">Rollout Services</a>
+                
+              </li>
+              <li><a href="media.html">Media</a></li>
+              <li><a href="E-tailing.html">E-tailing</a></li>
+            </ul>
+          </li>
+          <li><a href="partner.html">Partner</a></li>
+          <li><a href="career.html">Careers</a></li>
+          <li class="dropdown"><a href="" class="dropdown-toggle" data-toggle="dropdown">Group Websites <i class="caret"></i></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="http://iapinfotech.com/" target="_blank">iapinfotech.com</a></li>
+              
+            </ul>
+          </li>
+          <li><a href="http://iapcorp.com:9090/ihrpro/" target="_blank" class="btn btn-danger Request_btn2">Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="breadcrumbs-section">
+  <div class="breadcrumbs_bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="breadcrumbs-sec-title"> Rollout Services </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="breadcrumbs-sec-crumbs"> <a href="index.html">Home</a> <span>Rollout Services</span> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="features">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8">
+        <p>IAP Rollout Services (IAP-RS) is a division of IAP Company Pvt. Ltd. </p>
+        <p>IAP Rollout Services provide one stop solution for accelerated deployment, effective management of multi-location, multi technology and service / solutions / businesses / projects rollouts for government and enterprise customers.</p>
+        <p>IAP- RS brings on board capabilities of last mile (read - block / village level) reach across India, clubbed with project management & implementation capabilities enabled with IT ready and trained resources on ground. </p>
+        <p>Aadhar based services is one of the latest addition to the IAP-RS’s bouquet of offerings. </p>
+        <p><strong>IAP -RS offerings include :</strong></p>
+        <p><span class="color01">Aadhar services: </span></p>
+        <ul class="bullets">
+        <li><u><strong>Authentication Services:</strong></u> IAP-RS is UIDAI empanelled Aadhar Authentication User Agency (AUA). IAP aims to effectively utilize the power of Aadhar for identity verification of an individual. IAP has developed a software platform to authenticate identity of an individual by capturing demographic data.</li>
+          <li><u><strong>E-KYC:</strong></u> IAP-RS provides a paperless Aadhaar based process for fulfilling your KYC requirements. IAP is a UIDAI empanelled KYC Authentication User Agency (KUA).</li>
+          
+          <li><u><strong>Aadhar Enrolment & Updation:</strong></u> IAP- RS is a UIDAI authorized enrolment agency for providing enrolment & updation services for Aadhar. IAP- RS has a PAN India network of over 680 Permanent Enrolment Centres for Aadhar (PEC), as on date. IAP shall establish another 10,000 centres across India, over the next 12 months.
+            <ul style="padding-top:10px;">
+              <li>New enrolments for Aadhar</li>
+              <li>Updation of Aadhar data like updation of biometric data for children, change of address, mobile number, marital status etc.</li>
+            </ul>
+          </li>
+          <li><u><strong>Aadhar Based Solutions:</strong></u> IAP- RS provides end to end services for creating, implementing, managing Aadhar based custom solutions, applications for organizations requiring to enable their business models based on Aadhar ecosystem.</li>
+        </ul>
+        <p><span class="color01">IT Implementation & Maintenance: </span> Enablement, implementation, management of lastmile / spread out location based IT infrastructure is a challenge for many organizations. IAP-RS provides turn key services to organizations seeking to Rollout software applications, Telecom Infrastructure Set up and maintenance, IT hardware or both for multi-location / last mile locations, whether on-field OR in-premise.</p>
+        <p><span class="color01">Skill Development & Training: </span> Capacity building and availability of adequately trained resources at right location, on need basis is one of the big hurdles for field level business rollout. IAP-RS skill development unit provides ICT based trainings to students / project resources. Such trainings at present are imparted through 15 training centres located in Uttar Pradesh, Bihar and Madhya Pradesh. IAP skill development training centres impart trainings based on the need of the customers or IAP-RS projects.</p>
+        <p><span class="color01">Field Operations & Support: </span> As a part of its offerings IAP-RS provides managed services to its customers where in it under takes end to end task of business rollout including customer / merchant / partner acquisition, infrastructure set up, training of stake holders, running the operations with well-defined deliverables, milestones and locations. IAP-RS has successfully executed such projects for government customers, banks, e-commerce companies etc.</p>
+       
+      </div>
+      <div class="col-sm-4">
+        <div class="sidebar-category">
+          <div class="sidebar-title">Highlights</div>
+          <div class="high_cont">
+            <p>Consistently featured as the top five Enrolment agencies for Aadhar</p>
+            <p>Over 25 million enrolments</p>
+            <p>Managing network of 2000+ kiosks</p>
+            <p>Last mile presence in every state , supported by 8 regional offices 15 training centres and monitoring hubs </p>
+            <p>Successfully trained over 10,000 students</p>
+            <p>Ecosystem of 2000+ IT  support ready field resources</p>
+          </div>
+        </div>
+      </div>
+    </div>
+        <p><strong>Select list of projects executed by IAP – RS team include:</strong></p>
+        <div class="table-responsive table-bordered">
+          <table class="table">
+  <thead>
+    <tr>
+      <th width="22%"><strong>Name of Project</strong></th>
+      <th width="78%"><strong>Scope</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Aadhar Enrolment</strong></td>
+      <td class="text-justify">IAP-RS is a one of the lead companies for Aadhar Enrolments for citizens of India. It has done enrollments of more than 25 million people through the extensive network available across 12 states in North India. Scope included capturing of demographic data, biometric details (finger prints, iris data), processing and uploading/submitting the data online and offline as per-prescribed guidelines. </td>
+    </tr>
+    <tr>
+      <td><strong>Digitization of    Post Offices</strong></td>
+      <td class="text-justify">IAP-RS was mandated for data entry, scanning and digitization of employees related records, transaction data of over 2000 Post Offices in MP, Rajasthan, Delhi, Uttar Pradesh, Haryana, Gujarat and Maharashtra. This was successfully completed and handed    over to the customer in time.</td>
+    </tr>
+    <tr>
+      <td><strong>Telecom Tower Equipment    Installation &amp; Maintenance</strong></td>
+      <td class="text-justify">IAP has successfully executed projects for one of the prominent telecom OEM mandated to upgrade the telecom tower    infrastructure of Vodafone. The OEM in turn engaged IAP-RS to do
+        RF survey, BTS (Base trans receiver station) installation, microwave antennae installation, commissioning and ATP (acceptance test process). IAP-RS team has since successfully delivered over 2200 tower sites across 10 States, largely in remote locations.   </td>
+    </tr>
+    <tr>
+      <td><strong>Integrated    Disease Surveillance Program - (IDSP)  </strong></td>
+      <td class="text-justify">IDSP project was launched with World Bank    assistance in November 2004 to detect and respond to disease outbreaks    quickly. IAP- RS was mandated to setup VSAT connectivity at over 240 district    hospitals spread across 17 states. IAP did the gap analysis, network, system, application, server, internet/connectivity setup. Seamless integration planning and switchover, training, handholding, operations and maintenance. Scope also included capturing of data at the hospital level, process it and share it periodically with the stakeholders. </td>
+    </tr>
+    <tr>
+      <td><strong>Consumer Forum Network - (Confonet)</strong></td>
+      <td class="text-justify">Scope of work included Gap analysis, network, system, application, server, internet/connectivity setup. Seamless    integration planning, training, handholding, operations, maintenance for Consumer Forum Courts in over 400 districts spread over 15 states. </td>
+    </tr>
+    <tr>
+      <td><strong>Jan Seva Kendra (JSK) – Uttar Pradesh</strong></td>
+      <td class="text-justify">IAP-RS has been mandated to set up G2C service delivery kiosks  called as Jan Seva Kendra (JSK), set up the    backend infrastructure including but not limited to online payment, walletsystem for various kiosk operators and also to ensure seamless payments to government departments various services availed by the citizen through the kiosks. Scope of work also included field level technical support including technical training, upgradation of services and infrastcture from time to time for providing any additional services. At present IAP-RS team has setup over 450 JSK&rsquo;s in two districts of Uttar Pradesh.</td>
+    </tr>
+  </tbody>
+</table>
+        </div> 
+  </div>
+</div>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="footer-title">About</div>
+        <p>IAP Company (IAP) Pvt. Ltd. is a 20 year old organization with interests in IT Solutions, products and services, Media, E-tailing and E-governance. It began as a software development company with a single point focus on Japanese IT Market, and over the period it expanded its horizons and area of operations but with a clear agenda to be successful and a leader in all its business.</p>
+        <p> <a href="about.html">Read More</a></p>
+      </div>
+      <div class="col-sm-4">
+        <div class="footer-title">Find us on map</div>
+        <p><img src="images/map-img.png" class=" responsive" alt=""></p>
+      </div>
+      <div class="col-sm-4">
+        <div class="footer-title">Contact Info</div>
+        <ul class="contact_email">
+          <li> <strong>Address</strong> <span class="dot_email">:</span><span class="email_text"> IAP Company Pvt Ltd<br>
+            Palam Triangle, A Block,<br>
+            Main Road, Palam Vihar, Carterpuri Rd,<br>
+            Sector 23A, Gurgaon, India 122017 </span> </li>
+          <li> <strong>Telephone </strong> <span class="dot_email">:</span> <span class="email_text">+91 124 413 3500 </span> </li>
+          <li> <strong>Fax</strong> <span class="dot_email">:</span> <span class="email_text">+91 124 4133580 </span> </li>
+          <li><strong> Infotech</strong> <span class="dot_email">:</span> <span class="email_text"><a href="mailto:info@iapinfotech.com">info@iapinfotech.com</a></span></li>
+          <li><strong>Rollout</strong> <span class="dot_email">:</span> <span class="email_text"><a href="mailto:info@iapcorp.com">info@iapcorp.com</a></span></li>
+          <!--<li><strong> Media</strong> <span class="dot_email">:</span> <span class="email_text"><a href="mailto:info@merinews.com">info@merinews.com</a></span></li>-->
+          <li><strong> E-tailing</strong> <span class="dot_email">:</span> <span class="email_text"> <a href="mailto:info@merishop.com"> info@merishop.com</a></span></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <div> Copyright &copy; 2016-2017 IAP Company Pvt. Ltd. </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <ul class="footer-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="partner.html">Partner</a></li>
+            <li><a href="career.html">Careers</a></li>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="js/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/owl.carousel.min.js"></script> 
+<script src="js/circle-progress.js"></script> 
+<script src="jsjquery.magnific-popup.min.js"></script> 
+<script src="js/main.js"></script>
+</body>
+</html>

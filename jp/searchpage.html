@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>IAP Corp -Search Page</title><link rel="shortcut icon" href="favicon.ico" >
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<link href="css/ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if gt IE 6]>
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+    $(function() {
+        // this will get the full URL at the address bar
+        var url = window.location.href;
+
+        // passes on every "a" tag
+        $(".ttsmoothmenu a").each(function() {
+            // checks if its the same on the address bar
+            if (url == (this.href)) {
+                $(this).closest("a").addClass("active");
+            }
+        });
+    });   
+</script>
+    <script type="text/javascript" src="js/fade-plugin.js"></script>
+    <script type="text/javascript">
+      (function($) {
+        function init() {
+          $("#transitionEffect").fadeTransition({pauseTime: 5000,
+                                                 transitionTime: 1000,
+                                                 ignore: "#introslide",
+                                                 delayStart: 500,
+                                                 manualNavigation: false,
+                                                 pauseOnMouseOver: true,
+                                                 createNavButtons: false});
+        }
+        
+        $(document).ready(init);
+      })(jQuery);
+    </script>
+</head>
+
+<body>
+<div class="main-container">
+  <div class="header">
+    <div class="header-row1">
+      <div class="header-row1-1">
+	  
+	  <div style="float:right;">&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.iapinfotech.com/" title="US" target="_blank"><img src="images/us-icon.jpg" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="jp/index.html" title="Japan" target="_blank"><img src="images/japan-icon.jpg" /></a>
+	</div> 
+	
+       <!--<div class="tp-links"><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Login</a></div> -->
+		<div id="light" class="overlay-main-cnt">
+		  		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td height="27" colspan="3" valign="top" class="text-head">Login</td>
+    </tr>
+    <tr >
+      <td width="26%" height="50" class="text" style="padding-top:10px;">Username : </td>
+      <td width="72%" class="text" style="padding-top:10px;"><input type="text" name="textfield"  class="signup-textbox"/></td>
+      <td width="2%" style="padding-top:10px;">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="40" class="text">Password : </td>
+      <td class="text"><input type="text" name="textfield2"  class="signup-textbox"/></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="40" colspan="3"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="6%">&nbsp;</td>
+          <td width="68%" class="text"><a href="#" class="forgot">Forgot Password</a> | <a href="#" class="sign-up">Sign Up</a> </td>
+          <td width="26%"><a href="#"><img src="images/login.jpg" width="72" height="27" /></a></td>
+        </tr>
+      </table></td>
+    </tr>
+    <tr>
+      <td height="40" colspan="3"><div class="overlay-footer"><a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"><img src="images/closelabel.gif" /></a></div></td>
+    </tr>
+  </table>
+	    </div>
+		
+		  <div id="fade" class="face1"></div>
+		 <div class="tp-links1">
+		 <!--<a href="#"><img src="images/english-button.gif" alt="" /></a>
+		 <a href="coming-soon.html"><img src="images/japanese-button.gif" alt="" /></a>-->
+		 <a href="ihrpro"><img src="images/login-link.gif" alt="" /></a>
+      </div>  
+        <div class="tp-links1"><a href="contact.html"><img src="images/contact-link.gif" alt="" /></a></div> 
+    </div>
+    <div class="header-row2">
+      <div class="logo"><a href="index.html"><img src="images/logo.jpg" border="0" /></a></div>
+	  
+      <div class="header-right" style="margin-right:100px;">
+        <div id="magnifier"></div>
+        <!--START DEMO -->
+<form onsubmit="check();" action="searchpage.html">
+		<script type="text/javascript">
+			function check(){
+				return true;
+			}
+		</script>
+		<script type="text/javascript"
+         src="http://www.google.com/afsonline/show_afs_search.js">
+		</script>
+		
+	<input type="hidden" name="domains" value="www.iapcorp.com" />	
+      <input type="text" class="search" name="q" size="28" maxlength="255" value="Search" onfocus="if(this.value=='Search') this.value='';" onblur="if(this.value=='') this.value='Search';" />	  
+   <font style="font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	LINE-HEIGHT: 16px;
+	text-decoration: none;
+	font-style: normal;">   
+  <input type="radio" name="sitesearch" value="" />
+    Web  
+  <input type="radio" name="sitesearch" value="www.iapcorp.com"  checked="checked" />
+    IAP</font>	
+<input type="hidden" name="client" value="pub-9372192619832074"></input>
+<input type="hidden" name="forid" value="1"></input>
+<input type="hidden" name="ie" value="ISO-8859-1"></input>
+<input type="hidden" name="oe" value="ISO-8859-1"></input>
+<input type="hidden" name="cof"
+value="GALT:#A2A2A2;GL:1;DIV:#FFFFFF;VLC:663399;AH:center;BGC:FFFFFF;LBGC:FFFFFF;ALC:000000;LC:000000;T:004295;GFNT:7F7F7F;GIMP:7F7F7F;FORID:11"></input>
+<input type="hidden" name="hl" value="en"></input>
+<!-- End DEMO-->
+      </div>
+	  <div><img style="margin-top:16px; float:right;"  src="images/cmmi.jpg" /></div>
+    </div>	
+  </div> 
+  
+  <div class="menubar" style="margin-top:16px;">
+  
+	
+	<div style="width:637px; height:auto; float:left">
+                <div id="div" class="ttsmoothmenu">
+                  <ul>
+                    <li><a class="selected" href="index.html">Home</a></li>
+                    <li><a href="offerings.html">Offerings</a></li>
+                    <li><a href="industry.html">Industries</a></li>
+                    <li><a href="delivery-models.html">Delivery Models</a></li>
+                    <li><a href="partner.html">Partner</a></li>
+					<li><a href="career.html">Career</a></li>
+                    <li><a href="about.html" style="border-right:none;" id="right-menu">About Us</a></li>
+                  </ul>
+                  <br style="clear: left" />
+                </div>
+    </div>
+  </div>
+  <div class="banner-hm" style="height:100; padding:10px 0;" >
+  <table border="0" bgcolor="#ffffff" height="200">
+<tr>
+<td >
+<input type="hidden" name="client" value="pub-9372192619832074"></input>
+<input type="hidden" name="forid" value="1"></input>
+<input type="hidden" name="ie" value="ISO-8859-1"></input>
+<input type="hidden" name="oe" value="ISO-8859-1"></input>
+<input type="hidden" name="cof"
+value="GALT:#A2A2A2;GL:1;DIV:#FFFFFF;VLC:663399;AH:center;BGC:FFFFFF;LBGC:FFFFFF;ALC:000000;LC:000000;T:004295;GFNT:7F7F7F;GIMP:7F7F7F;FORID:11"></input>
+<input type="hidden" name="hl" value="en"></input></td>
+
+</tr>
+<tr>
+  <td colspan="3">
+  <!-- Google Search Result Snippet Begins -->
+<div id="googleSearchUnitIframe"></div>
+
+<script type="text/javascript">
+   var googleSearchIframeName = 'googleSearchUnitIframe';
+   var googleSearchFrameWidth = 950;
+   var googleSearchFrameHeight = 200;
+   var googleSearchFrameborder = 0 ;
+   var googleSearchDomain = 'www.google.com';
+</script>
+<script type="text/javascript"
+         src="js/show_afs_search.js">
+</script>
+<!-- Google Search Result Snippet Ends -->
+  </td>
+ 
+  </tr>
+
+</table>
+  
+  </div>
+	<div class="footer">
+		<div class="footer1">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="offerings.html">Offerings</a></li>
+				<li><a href="industry.html">Industries</a></li>
+				<li><a href="delivery-models.html">Delivery Models</a></li>
+				<li><a href="partner.html">Partner</a></li>
+				<li><a href="career.html">Career</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li id="footer-last"><a href="sitemap.html">Sitemap</a></li>
+		</ul>
+		</div>
+		<div class="footer2">
+			<div class="footer2-left"> Copyright &#169; 2014-2015 IAP Company Pvt. Ltd.</div>
+			<div class="footer2-right"><a href="legal-disclaimer.html">Legal Disclaimer</a></div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

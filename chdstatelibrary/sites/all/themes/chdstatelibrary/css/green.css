@@ -1,0 +1,65 @@
+.topnav-region,
+.navsecond,
+.footer,
+#block-views-notice-board-block h2,
+.comman-detail a,
+.view-gallery-slideshow .field-slideshow-controls a,
+.view-notice-board .view-footer p > a,
+.region-sidebar-first h2.block-title,
+.region-sidebar-second h2.block-title,
+.view-home-slider .field-slideshow-controls a,
+.main-menu-region .region-main-menu .block-superfish .sf-accordion-toggle a,
+.view-public-notice .view-footer p > a,
+.view-gallery-view  span.field-content,
+.field-name-field-upload-gallery .field-slideshow-controls a,
+.table-responsive table th,
+.view-upcoming-event .view-footer a{
+   background: #056633;
+
+}
+
+.all-four-footer h2{
+  color: #056633;
+  border-color: #056633;
+
+}
+
+
+.switcher .switcher-span{
+  background-color: #056633;
+
+}
+
+.form-search .input-group-btn .btn,
+.search-form .input-group-btn .btn,
+.form-actions button.btn,
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+  background-color: #056633;
+  border-color: #056633;
+
+}
+
+h1.page-header, 
+h2.page-header{
+	border-left-color: #056633
+}
+
+
+.main-menu-region .region-main-menu .block-superfish ul ul li {
+     background-color: #056633;
+}
+
+
+.navsecond .second-nav .block-superfish ul li a:hover, 
+.navsecond .second-nav  .block-superfish ul li a.active, 
+.navsecond .second-nav  .block-superfish ul li a:focus, 
+.navsecond .second-nav  .block-superfish ul li span:hover, 
+.navsecond .second-nav  .block-superfish ul li span:focus,
+.region-sidebar-first ul li a.active, 
+.region-sidebar-first ul li a:hover, 
+.region-sidebar-first ul li a:focus, 
+.region-sidebar-first ul li a:active {
+    background-color: #105317;
+}
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus, .breadcrumb li a{
+	color:#056633;}

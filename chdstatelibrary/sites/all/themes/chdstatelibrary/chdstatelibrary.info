@@ -1,0 +1,42 @@
+name = Bootstrap Sub-Theme chdstatelibrary
+description = Uses the jsDelivr CDN for all CSS and JavaScript. No source files or compiling is necessary and is recommended for simple sites or beginners.
+core = 7.x
+base theme = bootstrap
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+regions[topnav]     	= 'Top Nav'
+regions[header_emblem_img]='Emblem img'
+regions[navigation]     = 'Navigation'
+regions[secondnav]      = 'Second Navigation'
+regions[header]         = 'Top Bar'
+regions[slider]         ='Slider Bar'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[last_updated]   = 'Last Updated'
+regions[footer]         = 'Footer'
+regions[page_top]       = 'Page top'
+regions[last_updated] ='Footer Last Update'
+regions[page_bottom]    = 'Page bottom'
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+stylesheets[all][] = css/bootstrap.css
+stylesheets[all][] = css/overrides.min.css
+stylesheets[all][] = css/style.css
+stylesheets[print][] = css/print.css
+stylesheets[all][] = css/font-awesome.css
+stylesheets[all][] = css/font-awesome.min.css
+scripts[] = js/custom.js
+scripts[] = js/bootstrap.js
+
+; Switching stylesheets
+styleswitcher[css][Red] = css/red.css
+styleswitcher[css][Green] = css/green.css
+styleswitcher[css][Blue] = css/blue.css
+styleswitcher[css][Dark red] = css/yellow.css

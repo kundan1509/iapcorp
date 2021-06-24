@@ -1,0 +1,56 @@
+#nav {
+	margin:0;
+	padding:0;
+	background:#808259 url(../../../Merishop/merishop-12Oct2015/css/nav_bg.jpg) 0 0 repeat-x;
+	width:100%;
+	float:left;
+	border:1px solid #42432d;
+	border-width:1px 0;
+}
+#nav li {
+	display:inline;
+	padding:0;
+	margin:0;
+}
+#nav a:link,
+#nav a:visited {
+	color:#000;
+	background:#b2b580;
+	padding:20px 40px 4px 10px;
+	float:left;
+	width:auto;
+	border-right:1px solid #42432d;
+	text-decoration:none;
+	font:bold 1em/1em Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	text-shadow: 2px 2px 2px #555;
+}
+#nav a:hover {
+	color:#fff;
+	background:#727454;
+}
+#nav li:first-child a {
+	border-left:1px solid #42432d;
+}
+#home #nav-home a,
+#about #nav-about a,
+#archive #nav-archive a,
+#lab #nav-lab a,
+#reviews #nav-reviews a,
+#contact #nav-contact a {
+	background:#e35a00;
+	color:#fff;
+	text-shadow:none;
+}
+#home #nav-home a:hover,
+#about #nav-about a:hover,
+#archive #nav-archive a:hover,
+#lab #nav-lab a:hover,
+#reviews #nav-reviews a:hover,
+#contact #nav-contact a:hover {
+	background:#e35a00;
+}
+#nav a:active {
+	background:#e35a00;
+	color:#fff;
+}

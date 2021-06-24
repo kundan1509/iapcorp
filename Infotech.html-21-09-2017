@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<title>IAP Corp - Infotech</title>
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/ionicons.min.css" />
+<link rel="stylesheet" href="css/owl.carousel.css" />
+<link rel="stylesheet" href="css/magnific-popup.css" />
+<link rel="stylesheet" href="css/font-awesome.min.css" />
+<link rel="stylesheet" href="style.css" />
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Fjalla+One:400" />
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Cantarell:400" />
+<!--<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700" rel="stylesheet">
+--><!--     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'> -->
+</head>
+<body>
+<header>
+  <div id="feedback_btn" class="modal fade team_details" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4 class="modal-title">Send us a message</h4>
+        </div>
+        <div class="modal-body">
+          <form class="wpcf7" >
+            <fieldset>
+              <label><span class="text-color">*</span> Name:</label>
+              <input type="text" required class="wpcf7-text" id="contact-name">
+            </fieldset>
+            <fieldset>
+              <label><span class="text-color">*</span> Email:</label>
+              <input type="email" required name="email" id="contact-email" class="wpcf7-text">
+            </fieldset>
+            <fieldset>
+              <label><span class="text-color">*</span> Message:</label>
+              <textarea rows="5"  required class="wpcf7-textarea" id="contact-message"></textarea>
+            </fieldset>
+            <input type="submit" class="btn btn-danger" value="Submit">
+          </form>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="row pos-rel">
+        <div class="search-form-wrap"> <a class="search-close ion-android-close"></a>
+          <form>
+            <input type="text" placeholder="Search...">
+          </form>
+        </div>
+      </div>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""></a> </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown"> <a href="about-us.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About <i class="caret"></i></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="about.html">Introduction</a></li>
+              <li><a href="iap-team.html">Team</a></li>
+              <li><a href="locations.html">Reach</a></li>
+            </ul>
+          </li>
+          <li class="active dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Business <i class="caret"></i></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="Infotech.html">Infotech</a></li>
+              <li><a href="roll-out.html">Rollout Services</a>
+                
+              </li>
+              <li><a href="media.html">Media</a></li>
+              <li><a href="E-tailing.html">E-tailing</a></li>
+            </ul>
+          </li>
+          <li><a href="partner.html">Partner</a></li>
+          <li><a href="career.html">Careers</a></li>
+          <li class="dropdown"><a href="" class="dropdown-toggle" data-toggle="dropdown">Group Websites <i class="caret"></i></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="http://iapinfotech.com/" target="_blank">iapinfotech.com</a></li>
+              <li><a href="http://www.merinews.com/" target="_blank">merinews.com </a></li>
+              <li><a href="http://www.merishop.com/" target="_blank">merishop.com </a></li>
+            </ul>
+          </li>
+          
+          <li><a href="http://iapcorp.com:9090/ihrpro/" target="_blank" class="btn btn-danger Request_btn2">Login</a></li>
+        </ul>
+      </div>
+	  </div>
+  </nav>
+</header>
+<div class="breadcrumbs-section">
+<div class="breadcrumbs_bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="breadcrumbs-sec-title">
+						Infotech						
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="breadcrumbs-sec-crumbs">
+						<a href="index.html">Home</a>
+						<span>Infotech</span>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+<div class="introduction-section">
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-sm-8">
+					
+					<div class="introduction-text">
+						<p>IAP Infotech (a division of IAP Company Pvt Ltd.) - an IT solutions & service provider. IAP's team has an impeccable track record of successfully delivering multiple, mid to large sized projects to various organizations including Fortune 500 companies in India and across the globe. </p>
+                        <p>With an experience of nearly two decades and a team of 1000+ experienced engineers having an impeccable track record across technologies, platforms and industry domains provides IAP with the cutting edge to handle complex projects across technologies and domains.</p>
+                        <p><strong>IAP Infotech offerings include: </strong></p>
+                        <ul>
+                        <li class="ion-android-add"><a href="http://iapinfotech.com/index.php?p=software-development" onclick="window.open(this.href, 'Snopzer', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">Software Development & Maintenance</a></li>
+<li class="ion-android-add"><a href="http://iapinfotech.com/index.php?p=ims--cloud" onclick="window.open(this.href, 'Snopzer', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">Infrastructure Management & Cloud Services</a></li>
+<li class="ion-android-add"><a href="http://iapinfotech.com/index.php?p=it-staffing-services" onclick="window.open(this.href, 'Snopzer', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">IT Staffing Services</a></li>
+<li class="ion-android-add"><a href="">Products & Solutions</a></li>
+</ul>
+<p><strong>Sample projects delivered by IAP Infotech include:</strong> </p>
+ <ul>
+<li class="ion-android-add"><a href="" data-toggle="modal" data-target="#dialog_2">Online Trading System</a></li>
+<li class="ion-android-add"><a href="" data-toggle="modal" data-target="#dialog_3">Integrated Finance Management System</a></li>
+<li class="ion-android-add"><a href="" data-toggle="modal" data-target="#dialog_5">CMS based portal</a></li>
+<li class="ion-android-add"><a href="" data-toggle="modal" data-target="#dialog_9">Expert Car Inspection System</a></li>
+<li class="ion-android-add"><a href="" data-toggle="modal" data-target="#dialog_10">E-commerce Platform</a></li>
+<li class="ion-android-add"><a href="" data-toggle="modal" data-target="#dialog_14">End-to-End Managed Services for Application & Infrastructure</a></li>
+<li class="ion-android-add"><a href="" data-toggle="modal" data-target="#dialog_12">Cloud Migration</a></li>
+<li class="ion-android-add"><a href="" data-toggle="modal" data-target="#dialog_16">SaaS based Sales Force Application</a></li>
+<li class="ion-android-add"><a href="" data-toggle="modal" data-target="#dialog_20">SaaS based Survey Management Application</a></li>
+</ul>
+<p>For further details about IAP Infotech please visit <a href="http://iapinfotech.com/" target="_blank">www.iapinfotech.com</a></p>
+					</div>
+					
+                    
+				</div>
+				<div class="col-sm-4">
+                <div class="sidebar-category">
+						<div class="sidebar-title">Highlights</div> 
+						<div class="high_cont">
+                        <p>Over 120,000 man months of projects delivered</p>
+<p>State of the art Delivery & Software Development Centre in Gurgaon</p>
+<p>100+ Satisfied customers</p>
+<p>Proprietary Products & Solutions : Enterprise grade Content Management, HRMS, Sales Force Automation</p>
+<p>Array of technology partnerships / alliances </p>
+</div>
+					</div>
+                <div class="sidebar-category">
+						<div class="sidebar-title">Quality</div>
+						<div class="high_cont">
+						<ul>
+							<li class="ion-ios-arrow-right">CMMI L3 </li>
+							<li class="ion-ios-arrow-right">ISO : 9001:2008</li>
+							<li class="ion-ios-arrow-right">ISO/IEC : 20000-1:2011</li>
+							<li class="ion-ios-arrow-right">ISO/IEC : 27001: 2013</li>
+						
+							
+						</ul>
+					</div>
+					</div>
+                
+                </div>
+			</div>
+		</div>
+	</div>
+    
+    
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="footer-title">About</div>
+        <p>IAP Company (IAP) Pvt. Ltd. is a 20 year old organization with interests in IT Solutions, products and services, Media, E-tailing and E-governance. It began as a software development company with a single point focus on Japanese IT Market, and over the period it expanded its horizons and area of operations but with a clear agenda to be successful and a leader in all its business.</p>
+        <p> <a href="about.html">Read More</a></p>
+      </div>
+      <div class="col-sm-4">
+        <div class="footer-title">Find us on map</div>
+        <p><img src="images/map-img.png" class=" responsive" alt=""></p>
+      </div>
+      <div class="col-sm-4">
+        <div class="footer-title">Contact Info</div>
+        <ul class="contact_email">
+          <li> <strong>Address</strong> <span class="dot_email">:</span><span class="email_text"> IAP Company Pvt Ltd<br>
+            Palam Triangle, A Block,<br>
+            Main Road, Palam Vihar, Carterpuri Rd,<br>
+            Sector 23A, Gurgaon, India 122017 </span> </li>
+          <li> <strong>Telephone </strong> <span class="dot_email">:</span> <span class="email_text">+91 124 413 3500 </span> </li>
+          <li> <strong>Fax</strong> <span class="dot_email">:</span> <span class="email_text">+91 124 4133580 </span> </li>
+          <li><strong> Infotech</strong> <span class="dot_email">:</span> <span class="email_text"><a href="mailto:info@iapinfotech.com">info@iapinfotech.com</a></span></li>
+          <li><strong>Rollout</strong> <span class="dot_email">:</span> <span class="email_text"><a href="mailto:info@iapcorp.com">info@iapcorp.com</a></span></li>
+          <li><strong> Media</strong> <span class="dot_email">:</span> <span class="email_text"><a href="mailto:info@merinews.com">info@merinews.com</a></span></li>
+          <li><strong> E-tailing</strong> <span class="dot_email">:</span> <span class="email_text"> <a href="mailto:info@merishop.com"> info@merishop.com</a></span></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <div> Copyright &copy; 2016-2017 IAP Company Pvt. Ltd. </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <ul class="footer-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="partner.html">Partner</a></li>
+            <li><a href="career.html">Careers</a></li>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<div id="dialog_2" class="modal fade" role="dialog">
+  <div class="modal-dialog2 modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4 class="modal-title">Online Trading System</h4>
+      </div>
+      <div class="modal-body">
+        <h4>Scope of Work</h4>
+         <ul class="default_list">
+	<li>End to End Solution for migration of Front-End Application with the addition of new functionality</li>
+</ul>        <hr>
+         <h4>Major Business Modules</h4>
+        <ul class="default_list">
+	<li>Domestic &amp; International Trading on Securities.</li>
+	<li>Customer Information Report (CIR) as PMS (Portfolio Management System)</li>
+	<li>Establishing IPO functionality to online trading system.</li>
+	<li>User &amp; Group Management System.</li>
+	<li>Settlement Processing.</li>
+</ul>        <hr>
+        <h4>Technology Used</h4>
+        <ul class="default_list">
+	<li>Hosting Platform: IBM AIX &amp; Solaris</li>
+	<li>Application Server : IBM Web Sphere (Online) &amp; Solaris (Batch)</li>
+	<li>Database: Oracle 9i RAC (9.2.0.1)</li>
+	<li>Technology: J2EE, Oracle, IBM MQ, XML,FIX, Pro*C, PL/SQL,WSAD, WAS, Clear Case, Linux, Solaris, Unix, Windows 2000</li>
+</ul>        
+      </div>
+      
+    </div>
+
+  </div>
+</div>
+<div id="dialog_3" class="modal fade" role="dialog">
+  <div class="modal-dialog2 modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4 class="modal-title">Integrated Finance Management System</h4>
+      </div>
+      <div class="modal-body">
+        <h4>Scope of Work</h4>
+         <ul class="default_list">
+    <li>To develop integrated finance management system.</li>
+</ul>        <hr>
+         <h4>Major Business Modules</h4>
+        <ul class="default_list">
+	<li>Budget Management Module</li>
+	<li>Treasury Module</li>
+	<li>Work Management Module</li>
+	<li>Pension Module</li>
+	<li>E-grass Module etc.</li>
+</ul>        <hr>
+        <h4>Technology Used</h4>
+        <ul class="default_list">
+	<li>Hosting Platform: IIS</li>
+	<li>Database:SQL2008R2</li>
+	<li>Reporting: SSRS(SQL server reporting services)</li>
+	<li>Technology: DotNet</li>
+</ul>        
+      </div>
+      
+    </div>
+
+  </div>
+</div>
+<div id="dialog_5" class="modal fade" role="dialog">
+  <div class="modal-dialog2 modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4 class="modal-title">CMS based portal</h4>
+      </div>
+      <div class="modal-body">
+        <h4>Scope of Work</h4>
+         <ul class="default_list">
+	<li>Design , Development and Maintenance of India’s largest citizen journalism portal – CMS based portal</li>
+</ul>        <hr>
+         <h4>Major Business Modules</h4>
+        <ul class="default_list">
+	<li>PMS(Portal Management System)</li>
+	<li>Publish Article/Article Published/Submit News/</li>
+	<li>Collage Cops</li>
+	<li>Commenting ,Debate Module</li>
+	<li>CJ Columnist</li>
+	<li>Point System</li>
+	<li>Just In</li>
+	<li>Events , Campaign</li>
+	<li>Discount Coupon</li>
+</ul>        <hr>
+        <h4>Technology Used</h4>
+        <ul class="default_list">
+	<li>Hosting Platform: IIS</li>
+	<li>Database:SQL2008R2</li>
+	<li>Reporting: SSRS(SQL server reporting services)</li>
+	<li>Technology: struts2.0 ,hibernate2.0,Spring,jsp ,servlet</li>
+</ul>        
+      </div>
+      
+    </div>
+
+  </div>
+</div>
+<div id="dialog_9" class="modal fade" role="dialog">
+  <div class="modal-dialog2 modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4 class="modal-title">Expert Car Inspection System</h4>
+      </div>
+      <div class="modal-body">
+        <h4>Scope of Work</h4>
+         <ul class="default_list">
+	<li>Develop an application to provide an end to end Solution for inspecting any kind of car.</li>
+	<li>Real time record of any anomalies, damages of each part thus inspected.</li>
+	<li>Real time response for the purchase price done via inspection.</li>
+</ul>        <hr>
+         <h4>Major Business Modules</h4>
+        <ul class="default_list">
+	<li>Automated inspection system.</li>
+	<li>Logic Implementation for various range of cars.</li>
+	<li>Online Purchase price query.</li>
+	<li>Real Time support through Remote Desktop Program.</li>
+	<li>Multiple language support</li>
+</ul>        <hr>
+        <h4>Technology Used</h4>
+        <ul class="default_list">
+	<li>Hosting Platform: Windows 2003</li>
+	<li>Application Server : IIS, Web Services</li>
+	<li>Database: Oracle 9i RAC (9.2.0.1), Oracle XE</li>
+	<li>Technology: .Net, Oracle, MSMQ, XML, Web Services, VC++,Visual Studio, VSS, Windows XP, Panasonic Tough book CF-18/19.</li>
+</ul>        
+      </div>
+      
+    </div>
+
+  </div>
+</div>
+<div id="dialog_10" class="modal fade" role="dialog">
+  <div class="modal-dialog2 modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4 class="modal-title">E-commerce Platform</h4>
+      </div>
+      <div class="modal-body">
+        <h4>Scope of Work</h4>
+         <ul class="default_list">
+	<li>Design , Development and Maintenance of Integrated online supply chain management and service delivery platform – An Ecommerce Platform</li>
+</ul>        <hr>
+         <h4>Major Business Modules</h4>
+        <ul class="default_list">
+	<li>Partner Management</li>
+	<li>Wallet Management</li>
+	<li>Revenue Management</li>
+	<li>Service Management</li>
+	<li>Payment Facility Management</li>
+	<li>Supply Chain Management</li>
+	<li>Order to Cash Management</li>
+</ul>        <hr>
+        <h4>Technology Used</h4>
+        <ul class="default_list">
+	<li>Hosting Platform: Tomcat 5.5</li>
+	<li>Database: MYSQL 5.0</li>
+	<li>Reporting: Jasper , ireport 3.0</li>
+	<li>Technology: struts2.0 ,hibernate2.0,Spring,jsp ,servlet</li>
+</ul>        
+      </div>
+      
+    </div>
+
+  </div>
+</div>
+<div id="dialog_14" class="modal fade" role="dialog">
+  <div class="modal-dialog2 modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4 class="modal-title">End To End Managed Services For Application &amp; Infrastructure</h4>
+      </div>
+      <div class="modal-body">
+        <h4>Scope of Work</h4>
+         <ul class="default_list">
+	<li>End To End Managed Services For Application &amp; Infrastructure</li>
+</ul>        <hr>
+         <h4>Major Business Modules</h4>
+        <ul class="default_list">
+	<li>24*7 Monitoring &amp; Management of Application &amp; underlying Infrastructure with SLA of 99.95%.</li>
+	<li>ITIL based Incident, Problem, Change, Release management for Application and Infrastructure.</li>
+	<li>Asset &amp; Desktop Management.</li>
+	<li>Vendor Management.</li>
+	<li>Antivirus Management.</li>
+	<li>Network &amp; Security Management.</li>
+	<li>24*7 End User Support.</li>
+	<li>Support &amp; Training to the user department by onsite deployment of resources.</li>
+</ul>        <hr>
+                
+      </div>
+      
+    </div>
+
+  </div>
+</div>
+<div id="dialog_12" class="modal fade" role="dialog">
+  <div class="modal-dialog2 modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4 class="modal-title">Cloud Migration</h4>
+      </div>
+      <div class="modal-body">
+        <h4>Scope of Work</h4>
+         <ul class="default_list">
+	<li>Migration &amp; Management of DC services on Cloud</li>
+</ul>        <hr>
+         <h4>Major Business Modules</h4>
+        <ul class="default_list">
+	<li>Designed migration strategy [On-Prem to Cloud]</li>
+	<li>Migrated End-To-End Infrastructure including data on Public Cloud.</li>
+	<li>Support with the site resiliency using best reliable, robust &amp; suitable People, Process &amp; Technology for their IT environment (Hardware/Software/Network/Security etc)</li>
+	<li>Providing 24*7 Managed Services (End to End Infrastructure Support on Cloud)</li>
+</ul>        <hr>
+                
+      </div>
+      
+    </div>
+
+  </div>
+</div>
+<div id="dialog_16" class="modal fade" role="dialog">
+  <div class="modal-dialog2 modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4 class="modal-title">SaaS based Sales Force Application</h4>
+      </div>
+      <div class="modal-body">
+        <h4>Scope of Work</h4>
+         <ul class="default_list">
+	<li>Design , Development of SaaS Sales Force Automation Application</li>
+</ul>        <hr>
+         <h4>Major Business Modules</h4>
+        <ul class="default_list">
+	<li>Leads Management</li>
+	<li>Accounts Management</li>
+	<li>Contacts Management</li>
+	<li>Opportunities Management</li>
+	<li>Sales Calendar Management</li>
+	<li>Create Tasks &amp; Notes</li>
+	<li>Calls &amp; Meetings Management</li>
+	<li>Store Documents</li>
+</ul>        <hr>
+        <h4>Technology Used</h4>
+        <ul class="default_list">
+	<li>Hosting Platform: Apache Server</li>
+	<li>Database: MySQL 5.0</li>
+	<li>Technology: Php 5.5, Jquery, Ajax, Css</li>
+</ul>        
+      </div>
+      
+    </div>
+
+  </div>
+</div>
+<div id="dialog_20" class="modal fade" role="dialog">
+  <div class="modal-dialog2 modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+        <h4 class="modal-title">SaaS based Survey Management Application</h4>
+      </div>
+      <div class="modal-body">
+        <h4>Scope of Work</h4>
+         <ul class="default_list">
+	<li>Design , Development of SaaS based survey management application</li>
+</ul>        <hr>
+         <h4>Major Business Modules</h4>
+        <ul class="default_list">
+	<li>Create Survey</li>
+	<li>Customize Survey</li>
+	<li>Employees</li>
+	<li>Reports</li>
+</ul>        <hr>
+        <h4>Technology Used</h4>
+        <ul class="default_list">
+	<li>Hosting Platform: Apache HTTP Server</li>
+	<li>Database: My Sql</li>
+	<li>Technology: Linux, PHP 5.5</li>
+</ul>        
+      </div>
+      
+    </div>
+
+  </div>
+</div>
+<script src="js/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/owl.carousel.min.js"></script> 
+<script src="js/circle-progress.js"></script> 
+<script src="jsjquery.magnific-popup.min.js"></script> 
+
+<script src="js/main.js"></script>
+</body>
+</html>
